@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color and some padding around the whole page */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #444;
+    overflow: hidden;
+    color: white;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+}
+
+/* Style the hero section */
+#hero {
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the other sections */
+#introduction, #skills, #work-experience, #interests {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
