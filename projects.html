@@ -38,6 +38,25 @@
     <footer>
         <p>Contact Information and Social Media Links</p>
     </footer>
+    <!-- search filter projects which technologies used -->
+<section id="project-gallery">
+    <h2>Project Gallery</h2>
+    <div id="filter-buttons">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('c-sharp')">C#</button>
+        <button onclick="filterProjects('html')">HTML</button>
+        <button onclick="filterProjects('javascript')">JavaScript</button>
+    </div>
+    <div id="projects">
+        <!-- Add your projects here with a 'data-tech' attribute to specify the technology -->
+        <div class="project" data-tech="c-sharp">Sudoku Solver</div>
+        <div class="project" data-tech="c-sharp">Rubik's Cube Solver</div>
+        <div class="project" data-tech="html">Syndicate Studios</div>
+        <div class="project" data-tech="javascript">Web Development with LayerStation LLC</div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
 
     <script src="js/main.js"></script>
 </body>
